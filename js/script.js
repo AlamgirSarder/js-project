@@ -42,11 +42,18 @@ const s_btn = document.querySelector(".s_btn");
 s_btn.addEventListener("click", () => {
     const s_input = parseInt(document.querySelector(".s_input").value);
     
+if(s_input<0){
+    alert("Please enter positive number!");
+    return;
+}
+
 
     if (isNaN(s_input)) {
         alert("Please enter a valid number!");
         return;
     }
+
+
 
     
     const table = document.querySelector(".table");
