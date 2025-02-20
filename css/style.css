@@ -13,8 +13,11 @@ a{
 }
 /* COMMON CSS END */
 
+
 .main_part{
     background-color: black;
+  
+    
 }
 
 .single_btn{
@@ -119,6 +122,7 @@ a{
     display: flex;
     flex-wrap: wrap;
     margin-top: 50px;
+  
     
 
 }
@@ -130,15 +134,20 @@ ul{
 
 
 .ul_list{
-    width: 210px;
+    /* width: 210px; */
     border: 2px solid red;
-    text-align: center;
+    /* text-align: center; */
     font-size: 20px;
     margin: 20px;
 }
 
+.ul_list ul{
+    text-align: center;
+}
 .ul_list ul li{
-    padding: 0;
+    padding: 0 40px;
+    text-align: start;
+  
 }
 
 .main_part{
