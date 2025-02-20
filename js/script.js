@@ -96,6 +96,13 @@ d_btn.addEventListener("click", () => {
         return;
     }
 
+    if ((d_input1<0) || (d_input2<0)) {
+        alert("Please enter positive numbers!");
+        return;
+    }
+ 
+
+
     const table = document.querySelector(".table");
 
     table.innerHTML = "";
