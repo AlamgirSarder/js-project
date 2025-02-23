@@ -11,7 +11,7 @@ single_btn.addEventListener("click",()=>{
     dd_input.classList.remove("dd_input_show");
 
 
-  const tables = document.querySelector(".table");
+ const tables = document.querySelector(".table");
  tables.innerHTML = "";
 
 });
