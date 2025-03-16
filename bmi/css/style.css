@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul,li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+body{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+   
+
+}
+.main{
+    display: flex;
+}
+.data{
+    width: 400px;
+    height: 330px;
+    border: 1px solid green;
+    padding: 30px;
+    background-color: #eeeeee;
+    
+
+}
+.result{
+    width: 400px;
+    height: 330px;
+    margin-left: 20px;
+    border: 1px solid green;
+    background-color: #eeeeee;
+    padding: 30px;
+    text-align: center;
+}
+
+label{
+    font-size: 20px;
+ 
+    font-family: "Noto Sans", sans-serif;
+}
+.ageinput {
+    padding: 5px 0;
+    font-size: 15px;
+    width: 137px;
+    margin-right: 20px;
+    margin-left: 46px;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 20px;
+    padding-right: 40px;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+.ageborder{
+    border: 1px solid red;
+}
+
+
+.Ages{
+    position: relative;
+}
+.Ages::before {
+    content: "ages";
+    position: absolute;
+    top: 6px;
+    right: -180px;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(139, 126, 126);
+}
+
+
+.gend{
+    margin-right: 12px;
+}
+.ft {
+    padding: 5px 0;
+    font-size: 15px;
+    width: 115px;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 20px;
+    margin-left: 19px;
+    position: relative;
+    padding-right: 32px;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+.ftborder{
+    border: 1px solid red;
+}
+
+
+
+.Height{
+    position: relative;
+}
+.Height::after {
+    content: "feet";
+    position: absolute;
+    top: 6px;
+    right: -133px;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(139, 126, 126);
+}
+.Height::before {
+    content: "inches";
+    position: absolute;
+    top: 6px;
+    right: -252px;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(139, 126, 126);
+}
+.inc {
+    padding: 5px 0;
+    font-size: 15px;
+    width: 115px;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    padding-right: 48px;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+
+.incborder{
+    border: 1px solid red;
+}
+
+.weight {
+    padding: 5px 0;
+    font-size: 15px;
+    width: 235px;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 20px;
+    margin-left: 16px;
+    padding-right: 24px;
+    padding-left: 5px;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.weightborder{
+    border: 1px solid red;
+}
+
+
+.weigh{
+    position: relative;
+}
+.weigh::before {
+    content: "Kg";
+    position: absolute;
+    top: 60px;
+    right: 4px;
+    z-index: 1;
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(139, 126, 126);
+}
+
+.calculate_btn {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-left: 62px;
+    background-color: #3498db;
+    border: 2px solid #3498db;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.calculate_btn:hover{
+    background-color: #0d4f7b;
+    border: 2px solid #0d4f7b;
+    color: white;
+}
+
+
+.clear_btn {
+    padding: 5px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    cursor: pointer;
+    background-color: #91908b;
+    border: 2px solid #91908b;
+    border-radius: 4px;
+    color: white;
+    transition: all linear 0.5s ease;
+}
+.clear_btn:hover{
+    background-color: #454443;
+    border: 2px solid #454443;
+    color: white;
+}
+
+
+.male{
+    margin-right: 5px;
+}
+
+.ages{
+    font-size: 14px;
+    color: #645a5a;
+}
+
+#Male{
+    width: 17px;
+    height: 17px;
+}
+#Female{
+    width: 17px;
+    height: 17px;
+}
